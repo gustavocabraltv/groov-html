@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sua Landing Page</title>
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="/banner/banner_public.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -296,6 +300,48 @@
 
 
 
+
+        <!-- Section Gallery  -->
+
+
+        <div class="carousel-container">
+            <div class="carousel-header">
+                <h1 class="carousel-title">Title [53px]</h1>
+                <p class="carousel-description">Description [18px]</p>
+            </div>
+    
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-slide="1"></div>
+                    <div class="swiper-slide" data-slide="2"></div>
+                    <div class="swiper-slide" data-slide="3"></div>
+                    <div class="swiper-slide" data-slide="4"></div>
+                    <div class="swiper-slide" data-slide="5"></div>
+                    <div class="swiper-slide" data-slide="6"></div>
+                    <div class="swiper-slide" data-slide="7"></div>
+                    <div class="swiper-slide" data-slide="8"></div>
+                    <div class="swiper-slide" data-slide="9"></div>
+                    <div class="swiper-slide" data-slide="10"></div>
+                    <div class="swiper-slide" data-slide="11"></div>
+                    <div class="swiper-slide" data-slide="12"></div>
+                </div>
+            </div>
+    
+            <!-- Controles customizados -->
+            <div class="carousel-controls">
+                <button class="carousel-btn swiper-button-prev-custom" aria-label="Anterior">←</button>
+                <span class="carousel-counter">
+                    <span class="current-slide">1</span> / <span class="total-slides">12</span>
+                </span>
+                <button class="carousel-btn swiper-button-next-custom" aria-label="Próximo">→</button>
+            </div>
+        </div>
+
+
+
+
+
     <!-- QR Code Image -->
 
 
@@ -426,5 +472,9 @@
             console.log('Menu mobile clicado - implemente a funcionalidade aqui');
         });
     </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+<script src="/banner/banner.js"></script>
 </body>
 </html>
