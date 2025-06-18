@@ -50,6 +50,7 @@
     background-repeat: no-repeat;
 
     padding-top: 128px;
+    overflow: hidden;
   }
 
 
@@ -1270,9 +1271,30 @@ button {
     .nav-container {
         padding: 0 1rem;
     }
+    .footer .footer-top-right {
+      display: none;
+    }
 }
 
 @media (max-width: 480px) {
+
+  
+
+  .product-intro .item {
+    padding-bottom: 24px;
+    width: 140px;
+  }
+
+  .icons-container{
+    flex-wrap: wrap;
+    gap: 0; /* opcional: espaçamento entre os itens */
+    padding: 0 16px;
+  }
+
+
+.footer-top {
+  display: none;
+}
 
   .bento-grid .bento-item {
     min-width: 280px;
