@@ -1,0 +1,8 @@
+{
+    "name": "git-sync-tools",
+    "version": "1.0.0",
+    "description": "Scripts utilitários para sincronizar repositórios entre máquinas",
+    "scripts": {
+      "pull": "git stash && git pull origin main && git stash pop"
+    }
+  }
